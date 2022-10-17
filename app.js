@@ -79,7 +79,7 @@ const tt = async () => {
                 .replace(/ +(?= )/g, "") // replace multiple spaces with one space
                 .trim();
             class_obj.room_nr = room_nr;
-        }ö
+        }
         console.log(class_obj);
         let times = class_obj.start.split(":");
         let start_time = moment([2022, 09, 27])
